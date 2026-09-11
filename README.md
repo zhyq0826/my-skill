@@ -11,9 +11,6 @@
 | 写作 | [interview-notes](skills/interview-notes/SKILL.md) | 通用访谈整理、背景与案例、观点归属 |
 | 写作 | [report-writing](skills/report-writing/SKILL.md) | 工作汇报、数字口径、语言风格和建设建议 |
 | 研发 | [code-simplifier](skills/code-simplifier/SKILL.md) | 保持行为的代码简化 |
-| Flutter | [flutter-design](skills/flutter-design/SKILL.md) | 界面视觉、主题与组件设计 |
-| Flutter | [flutter-layout](skills/flutter-layout/SKILL.md) | 约束、响应式与布局 |
-| Flutter | [flutter-animation](skills/flutter-animation/SKILL.md) | 动画选型、控制器与动效实现 |
 | 设计 | [interaction-design](skills/interaction-design/SKILL.md) | 状态、反馈、过渡和微交互 |
 | 设计 | [ops-admin-design](skills/ops-admin-design/SKILL.md) | 运营后台、信息密度、权限与批量操作 |
 | Axiom | [axiom-api-register](skills/axiom-api-register/SKILL.md) | 从接口契约或代码注册 API |
@@ -43,8 +40,8 @@ python3 scripts/install.py --list
 python3 scripts/install.py --client codex --skills interview-notes report-writing
 python3 scripts/install.py --client codex --skills interview-notes report-writing --apply
 
-# Cursor：选择 Flutter 技能
-python3 scripts/install.py --client cursor --skills flutter-design flutter-layout flutter-animation --apply
+# Cursor：选择设计技能
+python3 scripts/install.py --client cursor --skills interaction-design ops-admin-design --apply
 
 # Claude Code：安装全部
 python3 scripts/install.py --client claude --apply
@@ -79,7 +76,7 @@ tests/              # 安装路径、冲突与完整性检查
 
 修改 `skills/` 后运行 `python3 -m unittest discover -s tests -v`。新增技能需同步 `catalog.json` 和上表。技能仅在被选用时提供指导，不作为仓库根级 `AGENTS.md` 或 `CLAUDE.md` 全局强制规则。
 
-Axiom 技能需要用户自行配置对应 MCP 服务；安装文件不会接入或写入任何业务系统。Flutter 技能需要目标项目具有 Flutter SDK 与相应依赖。
+Axiom 技能需要用户自行配置对应 MCP 服务；安装文件不会接入或写入任何业务系统。
 
 ## 来源
 

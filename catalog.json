@@ -24,36 +24,6 @@
     "dependencies": []
   },
   {
-    "name": "flutter-animation",
-    "title": "Flutter 动效",
-    "category": "Flutter",
-    "origin": "个人已安装配置；上游作者及许可未核实",
-    "source_client": "cursor",
-    "dependencies": [
-      "Flutter SDK"
-    ]
-  },
-  {
-    "name": "flutter-design",
-    "title": "Flutter 界面设计",
-    "category": "Flutter",
-    "origin": "个人已安装配置；上游作者及许可未核实",
-    "source_client": "cursor",
-    "dependencies": [
-      "Flutter SDK"
-    ]
-  },
-  {
-    "name": "flutter-layout",
-    "title": "Flutter 布局",
-    "category": "Flutter",
-    "origin": "个人已安装配置；上游作者及许可未核实",
-    "source_client": "cursor",
-    "dependencies": [
-      "Flutter SDK"
-    ]
-  },
-  {
     "name": "interaction-design",
     "title": "交互设计",
     "category": "设计",

@@ -6,10 +6,10 @@
 | --- | --- | --- |
 | interview-notes、report-writing | 个人实际写作需求与反馈整理 | 保留拆分后的通用版本与 Codex UI 元数据 |
 | code-simplifier | 个人 Codex 配置，与 Cursor 同名版本一致 | 保留规则，补充 UI 元数据 |
-| Flutter 三项、interaction-design、ops-admin-design | 个人 Cursor 配置 | 保留主要内容，移除 Flutter 原文件的生成模型与生成时间元数据 |
+| interaction-design、ops-admin-design | 个人 Cursor 配置 | 保留主要内容，补充 UI 元数据 |
 | Axiom 两项 | 个人 Cursor 配置 | 保留 Schema 与示例；问答交互改为跨客户端兼容说明；示例密码改为占位符 |
 
-个人已安装配置及项目技能未提供足以确认全部上游作者和许可证的完整信息。这里记录配置来源，不声明其原创归属，也不新增覆盖所有文件的许可证。Flutter 视觉设计文本与常见前端设计技能风格相近，后续确认上游后应补齐准确归属及许可。
+个人已安装配置及项目技能未提供足以确认全部上游作者和许可证的完整信息。这里记录配置来源，不声明其原创归属，也不新增覆盖所有文件的许可证。
 
 未收录个人目录中的第三方整套发行包（如 baoyu、Superpowers、Superset），也未复制其符号链接、工具凭据、历史对话或公司访谈材料。`frontend-design` 等第三方技能建议从上游安装，避免当作个人原创重新分发。
 
