@@ -1,4 +1,0 @@
-interface:
-  display_name: "服务端国际化治理"
-  short_description: "统一服务端语言选择、翻译键、语言资源与业务依赖边界"
-  default_prompt: "使用 $i18n-governance 完成当前任务，结合实际材料和目标项目约定。"
