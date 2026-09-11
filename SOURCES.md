@@ -21,7 +21,7 @@
 
 | 原技能 | 通用技能 | 主要处理 |
 | --- | --- | --- |
-| `candidate-interview-evaluator` | `candidate-interview-evaluator` | 保留岗位与证据链，评分阈值改为遵循岗位标准 |
+| `candidate-interview-evaluator` | `candidate-interview-evaluator` | 按个人技术招聘需求完善简历初评、定制出题和面后报告；保留岗位与证据链，新增分阶段细则及技术维度参照 |
 | `no-cryptic-abbreviations-governance` | `go-naming-governance` | 移除项目规则路径，保留语义命名与契约保护 |
 | `requirements-change-engineering` | `requirements-change-engineering` | 去除指定服务与命令，按真实消费者和存量判断迁移 |
 | `ops-panel-guidance` | `ops-panel-guidance` | 提炼说明、选项、确认与指南，不绑定组件库和业务枚举 |

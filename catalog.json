@@ -53,9 +53,9 @@
   },
   {
     "name": "candidate-interview-evaluator",
-    "title": "候选人面试评估",
+    "title": "技术候选人评估",
     "category": "招聘",
-    "origin": "个人项目技能 candidate-interview-evaluator 的通用化整理",
+    "origin": "个人项目技能提炼，按技术招聘三阶段需求完善",
     "source_client": "codex",
     "dependencies": []
   },

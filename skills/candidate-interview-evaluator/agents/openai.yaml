@@ -1,4 +1,4 @@
 interface:
-  display_name: "候选人面试评估"
-  short_description: "围绕岗位要求设计问题，以实际回答证据形成候选人评估与录用建议"
-  default_prompt: "使用 $candidate-interview-evaluator 完成当前任务，结合实际材料和目标项目约定。"
+  display_name: "技术候选人评估"
+  short_description: "评估技术简历，设计候选人专属面试问题，并根据实际回答形成评估报告"
+  default_prompt: "使用 $candidate-interview-evaluator，按我提供的简历、岗位要求或面试回答，完成相应阶段的评估或面试设计。"

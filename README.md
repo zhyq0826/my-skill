@@ -14,11 +14,21 @@
 | 设计 | [ops-admin-design](skills/ops-admin-design/SKILL.md) | 运营后台、信息密度、权限与批量操作 |
 | Axiom | [axiom-api-register](skills/axiom-api-register/SKILL.md) | 从接口契约或代码注册 API |
 | Axiom | [axiom-scene-register](skills/axiom-scene-register/SKILL.md) | 注册多步骤 API 测试场景 |
-| 招聘 | [candidate-interview-evaluator](skills/candidate-interview-evaluator/SKILL.md) | 候选人面试评估 |
+| 招聘 | [candidate-interview-evaluator](skills/candidate-interview-evaluator/SKILL.md) | 技术简历初评、定制面试提纲、回答评估与报告 |
 | 研发 | [go-naming-governance](skills/go-naming-governance/SKILL.md) | Go 命名治理 |
 | 研发 | [requirements-change-engineering](skills/requirements-change-engineering/SKILL.md) | 需求变更工程 |
 | 设计 | [ops-panel-guidance](skills/ops-panel-guidance/SKILL.md) | 后台操作说明与引导 |
 | 研发 | [prd-to-engineering](skills/prd-to-engineering/SKILL.md) | PRD 工程化 |
+
+## 技术候选人评估
+
+`candidate-interview-evaluator` 共用一套岗位标准，三个阶段可以分别调用：
+
+- **评估简历**：「使用 candidate-interview-evaluator，结合这份 JD 评估简历，给出是否值得面试的建议。」
+- **准备面试**：「根据这份简历设计一场 60 分钟的技术面试，包含项目追问、参考思路和评价依据。」
+- **面后报告**：「根据实际问题和候选人的回答，评估岗位能力并生成面试报告，区分已证明能力与待验证内容。」
+
+提供 JD、目标级别和面试时长有助于校准；没有 JD 时可先做通用技术初评。尚无面试回答时不会生成面后能力结论。
 
 ## 安装
 
