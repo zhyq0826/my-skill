@@ -1,0 +1,4 @@
+interface:
+  display_name: "Go 命名治理"
+  short_description: "治理 Go 晦涩缩写与概念命名，在保持行为和外部契约的前提下改进可读性"
+  default_prompt: "使用 $go-naming-governance 完成当前任务，结合实际材料和目标项目约定。"

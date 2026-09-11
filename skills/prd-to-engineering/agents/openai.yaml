@@ -1,0 +1,4 @@
+interface:
+  display_name: "PRD 工程化"
+  short_description: "将产品需求整理为工程规格、数据生命周期与可验收开发计划"
+  default_prompt: "使用 $prd-to-engineering 完成当前任务，结合实际材料和目标项目约定。"

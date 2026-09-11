@@ -1,0 +1,6 @@
+interface:
+  display_name: "前端需求影响分析"
+  short_description: "显式调用后依据现有代码分析前端页面、文件、接口和权限影响"
+  default_prompt: "使用 $frontend-impact-analysis 完成当前任务，结合实际材料和目标项目约定。"
+policy:
+  allow_implicit_invocation: false

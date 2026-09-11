@@ -16,7 +16,11 @@ def destination(client, project=None, dest=None):
     return base / DIRECTORIES[client]
 
 
-def install(names, target, apply=False):
+def install(names, target, apply=False, client='codex'):
+    if client not in DIRECTORIES:
+        raise ValueError(f'Unknown client: {client}')
+    catalog = json.loads((ROOT / 'catalog.json').read_text(encoding='utf-8'))
+    explicit_only = {item['name'] for item in catalog if item.get('explicit_only')}
     sources = [ROOT / 'skills' / name for name in names]
     # Preflight the entire selection so a conflict does not leave a partial install.
     for source in sources:
@@ -34,6 +38,11 @@ def install(names, target, apply=False):
     target.mkdir(parents=True, exist_ok=True)
     for source in sources:
         shutil.copytree(source, target / source.name)
+        if client in ('cursor', 'claude') and source.name in explicit_only:
+            entry = target / source.name / 'SKILL.md'
+            body = entry.read_text(encoding='utf-8')
+            # Keep one canonical skill; add the client's native invocation flag.
+            entry.write_text(body.replace('\n---\n', '\ndisable-model-invocation: true\n---\n', 1), encoding='utf-8')
 
 
 def main():
@@ -57,7 +66,7 @@ def main():
     if args.project and not Path(args.project).expanduser().is_dir():
         parser.error('--project must be an existing directory')
     try:
-        install(list(dict.fromkeys(args.skills or available)), destination(args.client, args.project, args.dest), args.apply)
+        install(list(dict.fromkeys(args.skills or available)), destination(args.client, args.project, args.dest), args.apply, client=args.client)
     except (ValueError, OSError) as error:
         parser.exit(1, f'{error}\n')
 

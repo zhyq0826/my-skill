@@ -1,0 +1,4 @@
+interface:
+  display_name: "后台操作说明与引导"
+  short_description: "为运营后台编写数据说明、选项提示、确认文案和操作指南"
+  default_prompt: "使用 $ops-panel-guidance 完成当前任务，结合实际材料和目标项目约定。"

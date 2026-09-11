@@ -88,5 +88,78 @@
     "dependencies": [
       "Axiom MCP"
     ]
+  },
+  {
+    "name": "candidate-interview-evaluator",
+    "title": "候选人面试评估",
+    "category": "招聘",
+    "origin": "个人项目技能 candidate-interview-evaluator 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "go-naming-governance",
+    "title": "Go 命名治理",
+    "category": "研发",
+    "origin": "个人项目技能 no-cryptic-abbreviations-governance 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "requirements-change-engineering",
+    "title": "需求变更工程",
+    "category": "研发",
+    "origin": "个人项目技能 requirements-change-engineering 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "service-error-governance",
+    "title": "服务错误与日志治理",
+    "category": "研发",
+    "origin": "个人项目技能 service-logging-err-governance 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "ops-panel-guidance",
+    "title": "后台操作说明与引导",
+    "category": "设计",
+    "origin": "个人项目技能 ops-panel-guidance 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "i18n-governance",
+    "title": "服务端国际化治理",
+    "category": "研发",
+    "origin": "个人项目技能 service-base-i18n-governance 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "prd-to-engineering",
+    "title": "PRD 工程化",
+    "category": "研发",
+    "origin": "个人项目技能 prd-to-engineering 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "frontend-impact-analysis",
+    "title": "前端需求影响分析",
+    "category": "研发",
+    "origin": "个人项目技能 ops-frontend-impact 的通用化整理",
+    "source_client": "cursor",
+    "dependencies": [],
+    "explicit_only": true
+  },
+  {
+    "name": "spreadsheet-to-config",
+    "title": "表格转结构化配置",
+    "category": "数据",
+    "origin": "个人项目技能 service-base-relation-growth-json 的通用化整理",
+    "source_client": "codex",
+    "dependencies": []
   }
 ]

@@ -1,0 +1,4 @@
+interface:
+  display_name: "表格转结构化配置"
+  short_description: "按消费契约将业务表格转换为可追溯、可校验的结构化配置"
+  default_prompt: "使用 $spreadsheet-to-config 完成当前任务，结合实际材料和目标项目约定。"

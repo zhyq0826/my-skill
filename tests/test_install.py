@@ -12,6 +12,26 @@ spec.loader.exec_module(installer)
 
 
 class InstallTests(unittest.TestCase):
+    def test_explicit_invocation_policy_for_each_client(self):
+        name = 'frontend-impact-analysis'
+        original = (ROOT / 'skills' / name / 'SKILL.md').read_text()
+        for client in installer.DIRECTORIES:
+            with tempfile.TemporaryDirectory() as temp:
+                dest = Path(temp) / 'skills'
+                installer.install([name, 'go-naming-governance'], dest, True, client=client)
+                body = (dest / name / 'SKILL.md').read_text()
+                if client == 'codex':
+                    self.assertEqual(body, original)
+                else:
+                    frontmatter = body.split('---', 2)[1]
+                    self.assertIn('disable-model-invocation: true', frontmatter)
+                    self.assertEqual(body.replace('disable-model-invocation: true\n', ''), original)
+                policy = (dest / name / 'agents/openai.yaml').read_text()
+                self.assertIn('allow_implicit_invocation: false', policy)
+                self.assertEqual((dest / 'go-naming-governance' / 'SKILL.md').read_bytes(),
+                                 (ROOT / 'skills/go-naming-governance/SKILL.md').read_bytes())
+        self.assertEqual((ROOT / 'skills' / name / 'SKILL.md').read_text(), original)
+
     def test_native_paths(self):
         for client, folder in [('cursor', '.cursor'), ('codex', '.agents'), ('claude', '.claude')]:
             self.assertEqual(installer.destination(client), Path.home() / folder / 'skills')

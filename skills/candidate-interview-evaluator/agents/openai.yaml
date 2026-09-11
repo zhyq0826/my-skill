@@ -1,0 +1,4 @@
+interface:
+  display_name: "候选人面试评估"
+  short_description: "围绕岗位要求设计问题，以实际回答证据形成候选人评估与录用建议"
+  default_prompt: "使用 $candidate-interview-evaluator 完成当前任务，结合实际材料和目标项目约定。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "需求变更工程"
+  short_description: "梳理需求变更的新旧行为、跨层影响、兼容迁移与验证要求"
+  default_prompt: "使用 $requirements-change-engineering 完成当前任务，结合实际材料和目标项目约定。"

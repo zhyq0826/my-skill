@@ -18,6 +18,15 @@
 | 设计 | [ops-admin-design](skills/ops-admin-design/SKILL.md) | 运营后台、信息密度、权限与批量操作 |
 | Axiom | [axiom-api-register](skills/axiom-api-register/SKILL.md) | 从接口契约或代码注册 API |
 | Axiom | [axiom-scene-register](skills/axiom-scene-register/SKILL.md) | 注册多步骤 API 测试场景 |
+| 招聘 | [candidate-interview-evaluator](skills/candidate-interview-evaluator/SKILL.md) | 候选人面试评估 |
+| 研发 | [go-naming-governance](skills/go-naming-governance/SKILL.md) | Go 命名治理 |
+| 研发 | [requirements-change-engineering](skills/requirements-change-engineering/SKILL.md) | 需求变更工程 |
+| 研发 | [service-error-governance](skills/service-error-governance/SKILL.md) | 服务错误与日志治理 |
+| 设计 | [ops-panel-guidance](skills/ops-panel-guidance/SKILL.md) | 后台操作说明与引导 |
+| 研发 | [i18n-governance](skills/i18n-governance/SKILL.md) | 服务端国际化治理 |
+| 研发 | [prd-to-engineering](skills/prd-to-engineering/SKILL.md) | PRD 工程化 |
+| 研发 | [frontend-impact-analysis](skills/frontend-impact-analysis/SKILL.md) | 前端需求影响分析 |
+| 数据 | [spreadsheet-to-config](skills/spreadsheet-to-config/SKILL.md) | 表格转结构化配置 |
 
 ## 安装
 
@@ -46,6 +55,8 @@ python3 scripts/install.py --client cursor --project /path/to/project --skills r
 
 遇到已有技能时，先比较差异并自行备份处理，再运行安装。脚本以复制方式安装，后续 `git pull` 不会自动覆盖已安装文件。
 
+`frontend-impact-analysis` 保留显式调用模式：Codex 使用调用策略元数据；安装到 Cursor 或 Claude Code 时，脚本同时添加 `disable-model-invocation: true`。其他技能保持默认发现方式。
+
 ## 三种客户端
 
 | 客户端 | 个人目录 | 项目目录 | 适配说明 |
@@ -72,4 +83,4 @@ Axiom 技能需要用户自行配置对应 MCP 服务；安装文件不会接入
 
 ## 来源
 
-本仓库是个人配置集，不宣称所有内容原创。访谈与汇报技能由个人需求和实际反馈整理；其余取自个人已安装配置，详见 [来源与整理范围](SOURCES.md)。未对来源未核实的内容统一授予新的开源许可证。
+本仓库是个人配置集，不宣称所有内容原创。访谈与汇报技能由个人需求和实际反馈整理；新增 9 项能力从个人项目技能中提炼，其余取自个人已安装配置，详见 [来源与整理范围](SOURCES.md)。未对来源未核实的内容统一授予新的开源许可证。
