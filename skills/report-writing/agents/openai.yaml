@@ -1,0 +1,4 @@
+interface:
+  display_name: "汇报写作"
+  short_description: "普通工作汇报与分析写作：语言克制、数字严谨、表达准确、建议具体"
+  default_prompt: "使用 $report-writing，整理这份汇报，突出结论与依据，核对数字口径并精简表达。"

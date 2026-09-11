@@ -1,0 +1,92 @@
+[
+  {
+    "name": "interview-notes",
+    "title": "访谈记录整理",
+    "category": "写作",
+    "origin": "本次会话整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "report-writing",
+    "title": "汇报写作",
+    "category": "写作",
+    "origin": "本次会话整理",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "code-simplifier",
+    "title": "代码简化",
+    "category": "研发",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "codex",
+    "dependencies": []
+  },
+  {
+    "name": "flutter-animation",
+    "title": "Flutter 动效",
+    "category": "Flutter",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": [
+      "Flutter SDK"
+    ]
+  },
+  {
+    "name": "flutter-design",
+    "title": "Flutter 界面设计",
+    "category": "Flutter",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": [
+      "Flutter SDK"
+    ]
+  },
+  {
+    "name": "flutter-layout",
+    "title": "Flutter 布局",
+    "category": "Flutter",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": [
+      "Flutter SDK"
+    ]
+  },
+  {
+    "name": "interaction-design",
+    "title": "交互设计",
+    "category": "设计",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": []
+  },
+  {
+    "name": "ops-admin-design",
+    "title": "运营后台设计",
+    "category": "设计",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": []
+  },
+  {
+    "name": "axiom-api-register",
+    "title": "API 注册",
+    "category": "Axiom",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": [
+      "Axiom MCP"
+    ]
+  },
+  {
+    "name": "axiom-scene-register",
+    "title": "测试场景注册",
+    "category": "Axiom",
+    "origin": "个人已安装配置；上游作者及许可未核实",
+    "source_client": "cursor",
+    "dependencies": [
+      "Axiom MCP"
+    ]
+  }
+]

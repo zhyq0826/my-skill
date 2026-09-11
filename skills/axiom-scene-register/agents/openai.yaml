@@ -1,0 +1,4 @@
+interface:
+  display_name: "测试场景注册"
+  short_description: "根据任务使用测试场景注册规则，保持现有项目约束与明确的任务范围"
+  default_prompt: "使用 $axiom-scene-register 完成当前任务。"

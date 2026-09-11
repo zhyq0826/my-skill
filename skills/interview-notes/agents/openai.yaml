@@ -1,0 +1,4 @@
+interface:
+  display_name: "访谈记录整理"
+  short_description: "通用访谈整理：忠实保留背景、过程、案例、诉求与受访者观点"
+  default_prompt: "使用 $interview-notes，把这些访谈材料整理成忠实、重点清晰、便于查阅的记录。"

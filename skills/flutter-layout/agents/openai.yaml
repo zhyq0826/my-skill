@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flutter 布局"
+  short_description: "根据任务使用Flutter 布局规则，保持现有项目约束与明确的任务范围"
+  default_prompt: "使用 $flutter-layout 完成当前任务。"
